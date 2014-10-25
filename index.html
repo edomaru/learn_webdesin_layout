@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Eracle</title>
+	<title>Eracle Web Development Service for Small Companies</title>
+	<meta name="description" content="Web Development Service for Small Companies">
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" href="favicon.ico">
 </head>
 <body>
 	
 	<div class="site">
 		<div class="header-outer">
-			<header class="site-header group">
+			<header role="banner" class="site-header group">
 				<h1 class="logo">Eracle</h1>
 				<div class="tagline">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit
@@ -18,7 +20,7 @@
 			</header>
 		</div>
 		<div class="navigation-outer">
-			<nav class="navigation-bar group">
+			<nav role="navigation" class="navigation-bar group">
 				<ul class="site-navigation">
 					<li><a class="active" href="#">Home</a></li>
 					<li><a href="#">About</a></li>
@@ -28,7 +30,7 @@
 					<li><a href="#">Contact</a></li>
 				</ul>
 
-				<div class="site-search">
+				<div role="search" class="site-search">
 					<form action="#" method="post">
 						<div class="search-field">
 							<label class="hide-vis" for="search">Search</label>
@@ -40,7 +42,7 @@
 			</nav>
 		</div>
 
-		<section class="site-content">
+		<section role="main" class="site-content">
 			<section class="features">
 				<div class="slideshow">
 					<div class="slide">
@@ -157,7 +159,7 @@ Pellentesque gravida est et erat semper aliquam.</p>
 				</ul>
 
 			</section>
-			<section class="get-in-toutch">
+			<section class="get-in-toutch group">
 				
 				<div class="get-in-touch-text">
 					<p>
@@ -168,18 +170,18 @@ Pellentesque gravida est et erat semper aliquam.</p>
 				<div class="get-in-touch-form">
 					
 					<form action="#">
-						<fieldset>
-							<div class="field input-field">
-								<label for="name">Name</label>
+						<fieldset class="group">
+							<div class="field group name-field input-field">
+								<label class="hide-text" for="name">Name</label>
 								<input type="text" name="name" id="name" placeholder="Your Name">
 							</div>
-							<div class="field input-field">
-								<label for="email">E-mail</label>
+							<div class="field group email-field input-field">
+								<label class="hide-text" for="email">E-mail</label>
 								<input type="email" id="email" name="email" placeholder="example@mail.com">
 							</div>
 						</fieldset>
 						<div class="field textarea-field">
-							<label for="message">Message</label>
+							<label class="hide-vis" for="message">Message</label>
 							<textarea name="message" id="message" placeholder="Your message here"></textarea>
 						</div>
 						<button type="submit" name="submit" class="submit-button">Send Message</button>
@@ -191,7 +193,7 @@ Pellentesque gravida est et erat semper aliquam.</p>
 		</section>
 
 		<div class="footer-outer">
-			<footer class="site-footer">
+			<footer role="content-info" class="site-footer">
 				<div class="group">
 					<div class="footer-about">
 						<h2>About Eracle</h2>
